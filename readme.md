@@ -15,6 +15,11 @@ git clone -b dev <repo-url> [本地端資料夾名稱]
 
    - 同步 遠端(origin/dev) 跟 本地(dev)
 
+     ```
+     git switch dev
+     git pull origin dev
+     ```
+
    - **建立並切換**到新的開發分支 (例如：`feature/xxx`):
 
      ```
