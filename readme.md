@@ -49,7 +49,6 @@
     第一次推送時，使用 -u 參數建立追蹤關係。
 
     ```sh
-    # 推薦命名格式：user/<your-username>/<feature-name>
     git push -u origin user/john/feature-login
     ```
 
@@ -100,7 +99,6 @@
       ```
     * **情況 B (分支首次推送)：** 強制推送並設定遠端追蹤關係。
       ```sh
-      # 推薦命名格式：user/<your-username>/<feature-name>
       git push -u --force-with-lease origin user/john/feature-login
       ```
 
